@@ -2,37 +2,11 @@
 
 Proyeto integrador de la Maestria en Ciencia de Datos, que se desarrollo en conjunto con las materias de ANÁLISIS TOPOLÓGICO DE DATOS, INFERENCIA ESTADISTICA y GESTIÓN DE PROYECTOS PARA CIENCIA DE DATOS.
 
-Diagnostico automatizado de Diabetes
-
-
-Omar Franco
-3er Semestre 
+Diagnostico automatizado de Diabetes 
 Universidad de la Ciudad de Aguascalientes
-
  
 Resumen. 
 El proyecto tiene como objetivo desarrollar un sistema automatizado para el diagnóstico de Diabetes utilizando inteligencia artificial y análisis de Big Data. Se busca mejorar la eficiencia en la atención médica al proporcionar diagnósticos más rápidos y precisos. Este enfoque podría revolucionar el campo de la medicina al abordar los desafíos actuales en términos de carga en los sistemas de salud y la necesidad de respuestas rápidas y precisas en el diagnóstico de enfermedades. 
-
-Contenido
-Introducción	4
-1. Propuesta Científica	5
-2. Propuesta Financiera	7
-2.1 Presupuesto	7
-2.2 Justificación Económica	7
-2.3 Fuentes de Financiamiento	8
-3. Propuesta de Gestión del Proyecto	9
-3.1 Equipo de Trabajo y estructura organizativa	9
-3.2 Plan de trabajo	9
-3.3 Riesgos y Mitigación	9
-3.4 Plan de Comunicación	10
-3.5 Ética y Cumplimiento	10
-4. Siguientes Pasos	11
-5. Conclusiones	11
-6. Referencias	12
-
-
-
-
  
 Introducción
 En la actualidad, la atención médica enfrenta retos significativos en términos de eficiencia y calidad de vida para los pacientes. La creciente carga en los sistemas de salud y la necesidad de respuestas rápidas y precisas en el diagnóstico de enfermedades han generado un interés creciente en la automatización de este proceso. La integración de tecnologías emergentes, como la inteligencia artificial y el análisis de Big data, ofrece oportunidades para revolucionar el ámbito médico, permitiendo diagnósticos más rápidos y precisos. En este contexto, la investigación se centra en explorar y desarrollar soluciones que automatizan el diagnóstico de la diabetes, con el objetivo de mejorar la eficiencia en la atención médica y, por ende, elevar la calidad de vida de los pacientes. 
@@ -45,7 +19,6 @@ Investigaciones previas han demostrado el éxito de la inteligencia artificial e
 El objetivo propuesto en el proyecto de investigación es la automatización del diagnóstico de diabetes mediante el uso de tecnologías emergentes como la inteligencia artificial y el análisis de Big Data. El objetivo es mejorar la eficiencia en la atención médica y elevar la calidad de vida de los pacientes al proporcionar diagnósticos más rápidos y precisos.
 Todo lo anterior con la creación de un algoritmo el cual despues de analizar la informacion proporcionada realice un diagnóstico, los más acertado posible.
 Cabe resaltar que esta herramienta no busca eliminar la tarea de un médico humano, si no que ayudar a eficientar esta tarea para mejorar el nivel de vida de los pacientes.
-
 
 1.3 Preguntas de investigación
 ¿Cómo se comporta la sintomatología de la enfermedad en estudio?
@@ -100,7 +73,6 @@ Ingeniero de Software:
 Expertos Médicos y Consultores:
    - Proveen conocimientos especializados y consultoría durante la fase de diseño.
    - Aseguran que el diseño cumpla con los estándares y requisitos médicos necesarios.
-
 
 3.2 Plan de trabajo
 Actividades necesarias para desarrollar y probar el algoritmo de diagnóstico automatizado:
