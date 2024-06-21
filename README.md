@@ -126,3 +126,16 @@ Se presenta un enfoque innovador para mejorar la eficiencia y precisión en el d
 Maura Shapiro; Artificial intelligence for early diabetes diagnosis. Scilight 10 November 2023; 2023 (45): 451104. https://doi.org/10.1063/10.0022404
 Alabdulwahhab, K. M., Sami, W., Mehmood, T., Meo, S. A., Alasbali, T. A., & Alwadani, F. A. (2021). Automated detection of diabetic retinopathy using machine learning classifiers. European review for medical and pharmacological sciences, 25(2), 583–590. https://doi.org/10.26355/eurrev_202101_24615
 Gautier T, Ziegler LB, Gerber MS, Campos-Náñez E, Patek SD. Artificial intelligence and diabetes technology: A review. Metabolism. 2021 Nov;124:154872. d
+
+___________________________________________________________________________________________________________________________________________________________________
+Resumen del codigo:
+
+Carga de Datos: Se descargan los datos de diabetes desde un URL y se leen en un DataFrame de pandas.
+Análisis Exploratorio: Se visualizan las correlaciones entre las variables, así como gráficos de dispersión para explorar la relación entre la glucosa y el IMC con la diabetes.
+Preprocesamiento: Las variables se escalan y los datos se dividen en conjuntos de entrenamiento y prueba.
+Modelo de Regresión Logística: Se entrena un modelo de regresión logística para predecir la diabetes, se evalúa su precisión, se analizan los coeficientes, se genera una matriz de confusión y se calcula la curva ROC.
+Validación Cruzada: Se realiza validación cruzada para evaluar la estabilidad del modelo.
+Prueba de Modelo de Regresión Lineal: Se ajusta un modelo de regresión lineal para explorar la relación entre la glucosa y el IMC.
+Identificación de Puntos Críticos: Los puntos en los datos donde la suma de los valores de glucosa e IMC es significativa se identifican y almacenan.
+Visualización: Se crea un gráfico de dispersión con una línea de tendencia para observar la relación entre la glucosa y el IMC.
+Modelo predictivo para predecir la probabilidad de que una persona tenga diabetes basándose en dos variables: el nivel de glucosa y el índice de masa corporal (IMC). 
