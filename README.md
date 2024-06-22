@@ -139,3 +139,7 @@ Prueba de Modelo de Regresión Lineal: Se ajusta un modelo de regresión lineal 
 Identificación de Puntos Críticos: Los puntos en los datos donde la suma de los valores de glucosa e IMC es significativa se identifican y almacenan.
 Visualización: Se crea un gráfico de dispersión con una línea de tendencia para observar la relación entre la glucosa y el IMC.
 Modelo predictivo para predecir la probabilidad de que una persona tenga diabetes basándose en dos variables: el nivel de glucosa y el índice de masa corporal (IMC). 
+
+Resumen del codigo modularizado:
+Se crea un modulo que contiene el codigo original, util para replicar el analisis, solo llamando el scrip diabetes_model.py
+Se agrega un archivo de texto con las instrucciones de uso.
