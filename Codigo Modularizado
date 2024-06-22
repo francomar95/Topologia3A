@@ -1,0 +1,5 @@
+El código original es encapsulado en la clase DiabetesModel para su reproducción.
+Se guarda como: diabetes_model.py
+Importar y usar la clase en otro script o notebook.
+Asegúrar que diabetes_model.py esté en el mismo directorio que el notebook.
+Si se utiliza un entorno virtual, asegúrar que todas las librerías necesarias estén instaladas en dicho entorno.
