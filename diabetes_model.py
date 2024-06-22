@@ -21,10 +21,10 @@ class DiabetesModel:
     def __init__(self, url):
         self.url = url
         self.data = self.load_data()
+        self.scaler = StandardScaler()  # Inicializar el scaler aquí
         self.X_scaled, self.y = self.preprocess_data()
         self.model_logistic = None
         self.model_linear = None
-        self.scaler = StandardScaler()
 
     def load_data(self):
         response = requests.get(self.url)
@@ -130,6 +130,8 @@ class DiabetesModel:
         else:
             print("El modelo predice que la probabilidad que la persona tenga diabetes es baja.")
 
+# Uso de la clase con una URL diferente
+
 url = "https://github.com/francomar95/Topologia3A/blob/38d5753bf696fea5de6dc9db73041d26a51ffa9a/diabetes.csv?raw=true"
 model = DiabetesModel(url)
 
@@ -142,4 +144,6 @@ X_test, y_test, predicciones = model.train_logistic_regression()
 model.logistic_regression_metrics(X_test, y_test, predicciones)
 
 model.train_linear_regression()
+
+# Llamada al nuevo método de predicción
 model.predict_new_data()
